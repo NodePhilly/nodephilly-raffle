@@ -1,10 +1,17 @@
 {
-    "name": "nodephilly-raffle"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.7"
-    , "jade": ">= 0.0.1"
-    , "eventbrite": "0.1.5"
+  "name": "nodephilly-raffle",
+  "version": "0.0.1-7",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.7",
+    "jade": ">= 0.0.1",
+    "eventbrite": "0.1.5"
+  },
+  "subdomain": "nodephillyraffle",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "v0.6.x"
   }
 }
