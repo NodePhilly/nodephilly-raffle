@@ -8,7 +8,7 @@ exports.index = function(req, res) {
 
 exports.attendees = function(req, res) {
   var app_key = process.env.EVENTBRITE_APP_KEY;
-  var user_key = '131782748421201805170'; //process.env.EVENTBRITE_USER_KEY;
+  var user_key = process.env.EVENTBRITE_USER_KEY;
 
   var client = EventBrite({
   	app_key : app_key,
